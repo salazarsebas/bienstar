@@ -1,0 +1,133 @@
+{
+    "common": {
+        "name": "Bien Star",
+        "description": "Crowdfunding platform for social causes with Bitcoin donations",
+        "title": "Bien Star - Crowdfunding with Bitcoin"
+    },
+    "nav": {
+        "home": "Home",
+        "projects": "Projects",
+        "create": "Create Project",
+        "about": "About",
+        "dashboard": "Dashboard"
+    },
+    "home": {
+        "hero": {
+            "title": "Support Social Causes with Bitcoin",
+            "subtitle": "Transparent, secure, and efficient crowdfunding powered by Starknet technology",
+            "cta": "Explore Projects"
+        },
+        "featured": {
+            "title": "Featured Projects",
+            "viewAll": "View All Projects"
+        },
+        "how": {
+            "title": "How It Works",
+            "subtitle": "Easy Steps to Make Impact",
+            "donate": {
+                "title": "Donate",
+                "description": "Support projects with Bitcoin donations securely and transparently"
+            },
+            "verify": {
+                "title": "Verify",
+                "description": "All projects undergo compliance checks before fund distribution"
+            },
+            "impact": {
+                "title": "Make Impact",
+                "description": "Track how your donation creates real social impact"
+            }
+        },
+        "growing": {
+            "title": "Every Contribution Grows Impact",
+            "subtitle": "Watch as your Bitcoin donations transform from seeds to a flourishing ecosystem of change.",
+            "step1": {
+                "title": "Plant the Seed",
+                "description": "Your first Bitcoin donation plants the seed of change, beginning a journey of transformation."
+            },
+            "step2": {
+                "title": "First Sprouts",
+                "description": "Watch as your contribution takes root, bringing the first signs of positive change to communities in need."
+            },
+            "step3": {
+                "title": "Growing Stronger",
+                "description": "As more contributions join, our collective impact grows stronger, weathering challenges together."
+            },
+            "step4": {
+                "title": "Blossoming Impact",
+                "description": "Your sustained support allows projects to blossom, creating visible change and inspiring others to join."
+            },
+            "step5": {
+                "title": "Flourishing Ecosystem",
+                "description": "Together we create a flourishing ecosystem of positive impact, transforming communities and lives for generations to come."
+            },
+            "cta": "Start Your Impact Journey"
+        }
+    },
+    "project": {
+        "fund": "Fund This Project",
+        "share": "Share",
+        "target": "Funding Target",
+        "raised": "Raised",
+        "backers": "Backers",
+        "daysLeft": "Days Left",
+        "about": "About This Project",
+        "updates": "Updates",
+        "compliance": "Compliance Status",
+        "donate": {
+            "title": "Donate with Bitcoin",
+            "amount": "Amount (BTC)",
+            "submit": "Complete Donation",
+            "success": "Thank you for your donation!"
+        }
+    },
+    "create": {
+        "title": "Create a New Project",
+        "form": {
+            "name": "Project Name",
+            "description": "Description",
+            "target": "Funding Target (BTC)",
+            "deadline": "Deadline",
+            "category": "Category",
+            "image": "Cover Image",
+            "submit": "Submit for Review"
+        }
+    },
+    "dashboard": {
+        "projects": "My Projects",
+        "donations": "My Donations",
+        "compliance": "Compliance Status",
+        "withdraw": "Withdraw Funds"
+    },
+    "projects": {
+        "title": "Explore Projects",
+        "subtitle": "Discover and support social impact initiatives",
+        "search": "Search projects...",
+        "filter": "Filter",
+        "noResults": "No projects match your search criteria.",
+        "raised": "raised",
+        "backers": "backers",
+        "daysLeft": "days left",
+        "takeInitiative": "Take the first initiative for {{category}}"
+    },
+    "errors": {
+        "generic": "Something went wrong. Please try again.",
+        "notFound": "The requested resource was not found.",
+        "compliance": "This project needs additional compliance verification."
+    },
+    "error": {
+        "pageNotFound": "Page Not Found",
+        "underConstruction": "We're currently under construction",
+        "stillDeveloping": "Some pages are still being developed. Please check back later.",
+        "redirecting": "Redirecting to homepage in",
+        "seconds": "seconds",
+        "goHome": "Go to Homepage",
+        "goBack": "Go Back"
+    },
+    "footer": {
+        "rights": "All rights reserved",
+        "slogan": "Promoting solidarity",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "contact": "Contact Us"
+    }
+}

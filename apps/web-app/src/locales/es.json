@@ -1,0 +1,133 @@
+{
+    "common": {
+        "name": "Bien Star",
+        "description": "Bien Star es una plataforma de crowdfunding para causas sociales con donaciones en Bitcoin.",
+        "title": "Bien Star - Crowdfunding para Causas Sociales"
+    },
+    "nav": {
+        "home": "Inicio",
+        "projects": "Proyectos",
+        "create": "Crear Proyecto",
+        "about": "Acerca de",
+        "dashboard": "Panel"
+    },
+    "home": {
+        "hero": {
+            "title": "Apoya Causas Sociales con Bitcoin",
+            "subtitle": "Crowdfunding transparente, seguro y eficiente impulsado por tecnología Starknet",
+            "cta": "Explorar Proyectos"
+        },
+        "featured": {
+            "title": "Proyectos Destacados",
+            "viewAll": "Ver Todos los Proyectos"
+        },
+        "how": {
+            "title": "Cómo Funciona",
+            "subtitle": "Pasos Sencillos para Crear Impacto",
+            "donate": {
+                "title": "Donar",
+                "description": "Apoya proyectos con donaciones en Bitcoin de forma segura y transparente"
+            },
+            "verify": {
+                "title": "Verificar",
+                "description": "Todos los proyectos pasan por verificaciones de cumplimiento antes de la distribución de fondos"
+            },
+            "impact": {
+                "title": "Crear Impacto",
+                "description": "Sigue cómo tu donación crea un impacto social real"
+            }
+        },
+        "growing": {
+            "title": "Cada Contribución Hace Crecer el Impacto",
+            "subtitle": "Observa cómo tus donaciones en Bitcoin se transforman desde semillas hasta un ecosistema floreciente de cambio.",
+            "step1": {
+                "title": "Planta la Semilla",
+                "description": "Tu primera donación en Bitcoin planta la semilla del cambio, comenzando un viaje de transformación."
+            },
+            "step2": {
+                "title": "Primeros Brotes",
+                "description": "Observa cómo tu contribución echa raíces, trayendo los primeros signos de cambio positivo a comunidades necesitadas."
+            },
+            "step3": {
+                "title": "Creciendo Más Fuerte",
+                "description": "A medida que se unen más contribuciones, nuestro impacto colectivo crece más fuerte, superando desafíos juntos."
+            },
+            "step4": {
+                "title": "Impacto Floreciente",
+                "description": "Tu apoyo sostenido permite que los proyectos florezcan, creando cambios visibles e inspirando a otros a unirse."
+            },
+            "step5": {
+                "title": "Ecosistema Próspero",
+                "description": "Juntos creamos un ecosistema próspero de impacto positivo, transformando comunidades y vidas para las generaciones venideras."
+            },
+            "cta": "Comienza Tu Viaje de Impacto"
+        }
+    },
+    "project": {
+        "fund": "Financiar Este Proyecto",
+        "share": "Compartir",
+        "target": "Objetivo de Financiación",
+        "raised": "Recaudado",
+        "backers": "Patrocinadores",
+        "daysLeft": "Días Restantes",
+        "about": "Acerca de Este Proyecto",
+        "updates": "Actualizaciones",
+        "compliance": "Estado de Cumplimiento",
+        "donate": {
+            "title": "Donar con Bitcoin",
+            "amount": "Cantidad (BTC)",
+            "submit": "Completar Donación",
+            "success": "¡Gracias por tu donación!"
+        }
+    },
+    "create": {
+        "title": "Crear un Nuevo Proyecto",
+        "form": {
+            "name": "Nombre del Proyecto",
+            "description": "Descripción",
+            "target": "Objetivo de Financiación (BTC)",
+            "deadline": "Fecha Límite",
+            "category": "Categoría",
+            "image": "Imagen de Portada",
+            "submit": "Enviar para Revisión"
+        }
+    },
+    "dashboard": {
+        "projects": "Mis Proyectos",
+        "donations": "Mis Donaciones",
+        "compliance": "Estado de Cumplimiento",
+        "withdraw": "Retirar Fondos"
+    },
+    "projects": {
+        "title": "Explorar Proyectos",
+        "subtitle": "Descubre y apoya iniciativas de impacto social",
+        "search": "Buscar proyectos...",
+        "filter": "Filtrar",
+        "noResults": "Ningún proyecto coincide con tus criterios de búsqueda.",
+        "raised": "recaudado",
+        "backers": "patrocinadores",
+        "daysLeft": "días restantes",
+        "takeInitiative": "Toma la primera iniciativa para {{category}}"
+    },
+    "errors": {
+        "generic": "Algo salió mal. Por favor, inténtalo de nuevo.",
+        "notFound": "El recurso solicitado no fue encontrado.",
+        "compliance": "Este proyecto necesita verificación de cumplimiento adicional."
+    },
+    "error": {
+        "pageNotFound": "Página No Encontrada",
+        "underConstruction": "Estamos en construcción",
+        "stillDeveloping": "Algunas páginas aún están en desarrollo. Por favor, vuelve más tarde.",
+        "redirecting": "Redirigiendo a la página de inicio en",
+        "seconds": "segundos",
+        "goHome": "Ir a Inicio",
+        "goBack": "Volver Atrás"
+    },
+    "footer": {
+        "rights": "Todos los derechos reservados",
+        "slogan": "Promoviendo la solidaridad",
+        "privacy": "Política de Privacidad",
+        "terms": "Términos de Servicio",
+        "contact": "Contáctanos"
+    }
+}
