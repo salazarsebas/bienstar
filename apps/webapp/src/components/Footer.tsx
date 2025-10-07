@@ -69,7 +69,7 @@ export default function Footer() {
           <div>
             <h3 className="font-medium text-black dark:text-white mb-4">{t('footer.contact')}</h3>
             <div className="flex space-x-4">
-              <SocialLink href="https://github.com" icon={<Github className="w-5 h-5" />} />
+              <SocialLink href="https://github.com/salazarsebas/bienstar" icon={<Github className="w-5 h-5" />} />
               <SocialLink href="https://twitter.com" icon={<Twitter className="w-5 h-5" />} />
               <SocialLink href="https://linkedin.com" icon={<Linkedin className="w-5 h-5" />} />
             </div>
