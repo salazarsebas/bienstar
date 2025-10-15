@@ -1,0 +1,222 @@
+{
+    "common": {
+        "name": "Bien Star",
+        "description": "Crowdfunding platform for social causes with Bitcoin donations",
+        "title": "Bien Star - Crowdfunding with Bitcoin"
+    },
+    "nav": {
+        "home": "Home",
+        "projects": "Projects",
+        "create": "Create Project",
+        "about": "About",
+        "dashboard": "Dashboard"
+    },
+    "home": {
+        "hero": {
+            "title": "Support Social Causes with Bitcoin",
+            "subtitle": "Transparent, secure, and efficient crowdfunding powered by Starknet technology",
+            "cta": "Explore Projects"
+        },
+        "featured": {
+            "title": "Featured Projects",
+            "viewAll": "View All Projects"
+        },
+        "how": {
+            "title": "How It Works",
+            "subtitle": "Easy Steps to Make Impact",
+            "donate": {
+                "title": "Donate",
+                "description": "Support projects with Bitcoin donations securely and transparently"
+            },
+            "verify": {
+                "title": "Verify",
+                "description": "All projects undergo compliance checks before fund distribution"
+            },
+            "impact": {
+                "title": "Make Impact",
+                "description": "Track how your donation creates real social impact"
+            }
+        },
+        "growing": {
+            "title": "Every Contribution Grows Impact",
+            "subtitle": "Watch as your Bitcoin donations transform from seeds to a flourishing ecosystem of change.",
+            "step1": {
+                "title": "Plant the Seed",
+                "description": "Your first Bitcoin donation plants the seed of change, beginning a journey of transformation."
+            },
+            "step2": {
+                "title": "First Sprouts",
+                "description": "Watch as your contribution takes root, bringing the first signs of positive change to communities in need."
+            },
+            "step3": {
+                "title": "Growing Stronger",
+                "description": "As more contributions join, our collective impact grows stronger, weathering challenges together."
+            },
+            "step4": {
+                "title": "Blossoming Impact",
+                "description": "Your sustained support allows projects to blossom, creating visible change and inspiring others to join."
+            },
+            "step5": {
+                "title": "Flourishing Ecosystem",
+                "description": "Together we create a flourishing ecosystem of positive impact, transforming communities and lives for generations to come."
+            },
+            "cta": "Start Your Impact Journey"
+        }
+    },
+    "project": {
+        "fund": "Fund This Project",
+        "share": "Share",
+        "target": "Funding Target",
+        "raised": "Raised",
+        "backers": "Backers",
+        "daysLeft": "Days Left",
+        "about": "About This Project",
+        "updates": "Updates",
+        "compliance": "Compliance Status",
+        "donate": {
+            "title": "Donate with Bitcoin",
+            "amount": "Amount (BTC)",
+            "submit": "Complete Donation",
+            "success": "Thank you for your donation!"
+        }
+    },
+    "create": {
+        "title": "Create a New Project",
+        "form": {
+            "name": "Project Name",
+            "description": "Description",
+            "target": "Funding Target (BTC)",
+            "deadline": "Deadline",
+            "category": "Category",
+            "image": "Cover Image",
+            "submit": "Submit for Review"
+        }
+    },
+    "dashboard": {
+        "projects": "My Projects",
+        "donations": "My Donations",
+        "compliance": "Compliance Status",
+        "withdraw": "Withdraw Funds"
+    },
+    "projects": {
+        "title": "Explore Projects",
+        "subtitle": "Discover and support social impact initiatives",
+        "search": "Search projects...",
+        "filter": "Filter",
+        "noResults": "No projects match your search criteria.",
+        "raised": "raised",
+        "backers": "backers",
+        "daysLeft": "days left",
+        "takeInitiative": "Take the first initiative for {{category}}"
+    },
+    "errors": {
+        "generic": "Something went wrong. Please try again.",
+        "notFound": "The requested resource was not found.",
+        "compliance": "This project needs additional compliance verification."
+    },
+    "error": {
+        "pageNotFound": "Page Not Found",
+        "underConstruction": "We're currently under construction",
+        "stillDeveloping": "Some pages are still being developed. Please check back later.",
+        "redirecting": "Redirecting to homepage in",
+        "seconds": "seconds",
+        "goHome": "Go to Homepage",
+        "goBack": "Go Back"
+    },
+    "footer": {
+        "rights": "All rights reserved",
+        "slogan": "Promoting solidarity",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "contact": "Contact Us",
+        "legal": "Legal",
+        "cookies": "Cookie Policy",
+        "compliance": "Compliance",
+        "disclaimer": "Cryptocurrency donations may be subject to regulatory requirements in your jurisdiction. Please consult with local authorities.",
+        "badges": {
+            "secure": "SSL Secured",
+            "verified": "Blockchain Verified",
+            "encrypted": "End-to-End Encrypted"
+        }
+    },
+    "stats": {
+        "activeSupporters": "Active Supporters",
+        "fundsRaised": "Total Funds Raised",
+        "projectsFunded": "Projects Funded",
+        "successRate": "Success Rate"
+    },
+    "testimonials": {
+        "title": "What People Say",
+        "subtitle": "Real stories from our community members who are making a difference",
+        "role1": "Project Creator",
+        "quote1": "Bien Star helped us raise funds for our community farm in just 30 days. The transparency of Bitcoin transactions gave our donors confidence.",
+        "role2": "Regular Donor",
+        "quote2": "I love being able to track exactly where my donations go. The impact reports and blockchain verification make me trust this platform completely.",
+        "role3": "Environmental Activist",
+        "quote3": "Finally, a crowdfunding platform that combines social impact with financial innovation. The tree planting feature is a beautiful touch!"
+    },
+    "partners": {
+        "title": "Trusted By Leading Organizations",
+        "subtitle": "Working together to create positive social impact",
+        "trustNote": "Join 50+ organizations making a difference through transparent, blockchain-powered fundraising"
+    },
+    "trust": {
+        "title": "Your Trust Is Our Priority",
+        "subtitle": "We implement industry-leading security and transparency measures to protect your donations",
+        "secure": {
+            "title": "Secure Transactions",
+            "description": "All donations are processed through secure Bitcoin blockchain technology"
+        },
+        "privacy": {
+            "title": "Privacy Protected",
+            "description": "Your personal information is encrypted and never shared without consent"
+        },
+        "transparent": {
+            "title": "100% Transparent",
+            "description": "Every transaction is verifiable on the blockchain with full transparency"
+        },
+        "verified": {
+            "title": "Verified Projects",
+            "description": "All projects undergo thorough verification before approval"
+        },
+        "badges": {
+            "ssl": "SSL Encrypted",
+            "blockchain": "Blockchain Verified",
+            "compliant": "Regulatory Compliant",
+            "audited": "Security Audited"
+        }
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Everything you need to know about using Bien Star",
+        "q1": {
+            "question": "How does Bitcoin fundraising work?",
+            "answer": "When you donate using Bitcoin, your contribution is recorded on the blockchain, providing complete transparency. Project creators receive funds in Bitcoin, which they can convert to their local currency or use directly."
+        },
+        "q2": {
+            "question": "Is my donation tax-deductible?",
+            "answer": "Tax deductibility depends on your local regulations and the project's charitable status. We recommend consulting with a tax professional in your jurisdiction. We provide detailed transaction records for your tax filing needs."
+        },
+        "q3": {
+            "question": "How do I track my donation's impact?",
+            "answer": "Every project provides regular updates on their progress. You can view these updates on the project page. Additionally, all transactions are recorded on the Bitcoin blockchain, allowing you to verify exactly where your funds went."
+        },
+        "q4": {
+            "question": "What happens if a project doesn't reach its goal?",
+            "answer": "Projects can operate on either an \"all-or-nothing\" or \"keep-it-all\" funding model. This is clearly stated on each project page. For all-or-nothing projects, if the goal isn't met, all donations are automatically returned to donors."
+        },
+        "q5": {
+            "question": "How are projects verified for authenticity?",
+            "answer": "All projects undergo a thorough verification process before being published. We verify the identity of project creators, review project documentation, and assess the feasibility of their plans. Verified projects display a badge on their page."
+        },
+        "q6": {
+            "question": "What fees does Bien Star charge?",
+            "answer": "We charge a small platform fee of 5% on successfully funded projects to cover operational costs and platform maintenance. This fee helps us continue providing a secure, transparent fundraising platform. Standard Bitcoin transaction fees also apply."
+        },
+        "contact": {
+            "title": "Still have questions?",
+            "description": "Our support team is here to help you",
+            "button": "Contact Support"
+        }
+    }
+}

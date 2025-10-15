@@ -1,0 +1,29 @@
+// Make a nextjs git ignore
+.next
+.env
+
+
+# Next.js
+.next
+.env
+.env.local
+
+# Node.js
+node_modules
+package-lock.json
+
+# Visual Studio Code
+.vscode
+
+# IDE
+.idea
+
+# Other
+.DS_Store
+
+# Logs
+logs
+
+# Cache
+.cache
+
