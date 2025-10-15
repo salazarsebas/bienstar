@@ -41,7 +41,7 @@ export default function GrowingTreeSection() {
     });
     
     // Animate each step as it comes into view
-    stepsRef.current.forEach((step, index) => {
+    stepsRef.current.forEach((step) => {
       if (!step) return;
       
       // Create a separate timeline for each step

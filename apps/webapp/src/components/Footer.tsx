@@ -7,7 +7,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { useTranslations } from '../context/TranslationContext';
-import { Github, Twitter, Linkedin } from 'lucide-react';
+import { Github, Twitter, Linkedin, Shield, Award } from 'lucide-react';
 import { ThemeToggle } from './ThemeToggle';
 import Image from 'next/image';
 
@@ -51,7 +51,7 @@ export default function Footer() {
           
           {/* Legal section */}
           <div>
-            <h3 className="font-medium text-black dark:text-white mb-4">{t('footer.rights')}</h3>
+            <h3 className="font-medium text-black dark:text-white mb-4">{t('footer.legal')}</h3>
             <ul className="space-y-2">
               <FooterLink href="/privacy">
                 {t('footer.privacy')}
@@ -59,8 +59,11 @@ export default function Footer() {
               <FooterLink href="/terms">
                 {t('footer.terms')}
               </FooterLink>
-              <FooterLink href="/contact">
-                {t('footer.contact')}
+              <FooterLink href="/cookie-policy">
+                {t('footer.cookies')}
+              </FooterLink>
+              <FooterLink href="/compliance">
+                {t('footer.compliance')}
               </FooterLink>
             </ul>
           </div>
@@ -76,8 +79,29 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="border-t border-gray-100 dark:border-gray-800 mt-8 pt-8 text-center text-sm text-gray-500 dark:text-gray-400">
-          <p>Bienstar - {t('footer.slogan')}</p>
+        {/* Trust badges section */}
+        <div className="border-t border-gray-100 dark:border-gray-800 mt-8 pt-8">
+          <div className="flex flex-wrap justify-center items-center gap-6 mb-6">
+            <div className="flex items-center gap-2 text-xs text-gray-600 dark:text-gray-400">
+              <Shield className="w-4 h-4 text-green-500" />
+              <span>{t('footer.badges.secure')}</span>
+            </div>
+            <div className="flex items-center gap-2 text-xs text-gray-600 dark:text-gray-400">
+              <Award className="w-4 h-4 text-blue-500" />
+              <span>{t('footer.badges.verified')}</span>
+            </div>
+            <div className="flex items-center gap-2 text-xs text-gray-600 dark:text-gray-400">
+              <Shield className="w-4 h-4 text-purple-500" />
+              <span>{t('footer.badges.encrypted')}</span>
+            </div>
+          </div>
+
+          <p className="text-center text-sm text-gray-500 dark:text-gray-400">
+            Bienstar - {t('footer.slogan')}
+          </p>
+          <p className="text-center text-xs text-gray-400 dark:text-gray-500 mt-2">
+            {t('footer.disclaimer')}
+          </p>
         </div>
       </div>
     </footer>

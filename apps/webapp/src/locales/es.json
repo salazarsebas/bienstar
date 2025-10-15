@@ -128,6 +128,95 @@
         "slogan": "Promoviendo la solidaridad",
         "privacy": "Política de Privacidad",
         "terms": "Términos de Servicio",
-        "contact": "Contáctanos"
+        "contact": "Contáctanos",
+        "legal": "Legal",
+        "cookies": "Política de Cookies",
+        "compliance": "Cumplimiento",
+        "disclaimer": "Las donaciones en criptomonedas pueden estar sujetas a requisitos regulatorios en su jurisdicción. Consulte con las autoridades locales.",
+        "badges": {
+            "secure": "Seguridad SSL",
+            "verified": "Verificado en Blockchain",
+            "encrypted": "Cifrado de Extremo a Extremo"
+        }
+    },
+    "stats": {
+        "activeSupporters": "Partidarios Activos",
+        "fundsRaised": "Fondos Totales Recaudados",
+        "projectsFunded": "Proyectos Financiados",
+        "successRate": "Tasa de Éxito"
+    },
+    "testimonials": {
+        "title": "Lo Que Dice La Gente",
+        "subtitle": "Historias reales de miembros de nuestra comunidad que están marcando la diferencia",
+        "role1": "Creador de Proyecto",
+        "quote1": "Bien Star nos ayudó a recaudar fondos para nuestra granja comunitaria en solo 30 días. La transparencia de las transacciones de Bitcoin dio confianza a nuestros donantes.",
+        "role2": "Donante Regular",
+        "quote2": "Me encanta poder rastrear exactamente a dónde van mis donaciones. Los informes de impacto y la verificación blockchain hacen que confíe completamente en esta plataforma.",
+        "role3": "Activista Ambiental",
+        "quote3": "Finalmente, una plataforma de crowdfunding que combina impacto social con innovación financiera. ¡La función de plantación de árboles es un detalle hermoso!"
+    },
+    "partners": {
+        "title": "Confiado Por Organizaciones Líderes",
+        "subtitle": "Trabajando juntos para crear un impacto social positivo",
+        "trustNote": "Únete a más de 50 organizaciones que marcan la diferencia a través de recaudación de fondos transparente impulsada por blockchain"
+    },
+    "trust": {
+        "title": "Tu Confianza Es Nuestra Prioridad",
+        "subtitle": "Implementamos medidas de seguridad y transparencia líderes en la industria para proteger tus donaciones",
+        "secure": {
+            "title": "Transacciones Seguras",
+            "description": "Todas las donaciones se procesan a través de la tecnología blockchain de Bitcoin segura"
+        },
+        "privacy": {
+            "title": "Privacidad Protegida",
+            "description": "Tu información personal está cifrada y nunca se comparte sin consentimiento"
+        },
+        "transparent": {
+            "title": "100% Transparente",
+            "description": "Cada transacción es verificable en la blockchain con total transparencia"
+        },
+        "verified": {
+            "title": "Proyectos Verificados",
+            "description": "Todos los proyectos se someten a una verificación exhaustiva antes de su aprobación"
+        },
+        "badges": {
+            "ssl": "Cifrado SSL",
+            "blockchain": "Verificado en Blockchain",
+            "compliant": "Cumplimiento Regulatorio",
+            "audited": "Auditoría de Seguridad"
+        }
+    },
+    "faq": {
+        "title": "Preguntas Frecuentes",
+        "subtitle": "Todo lo que necesitas saber sobre el uso de Bien Star",
+        "q1": {
+            "question": "¿Cómo funciona la recaudación de fondos con Bitcoin?",
+            "answer": "Cuando donas usando Bitcoin, tu contribución se registra en la blockchain, proporcionando total transparencia. Los creadores de proyectos reciben fondos en Bitcoin, que pueden convertir a su moneda local o usar directamente."
+        },
+        "q2": {
+            "question": "¿Mi donación es deducible de impuestos?",
+            "answer": "La deducibilidad fiscal depende de las regulaciones locales y el estado caritativo del proyecto. Recomendamos consultar con un profesional de impuestos en tu jurisdicción. Proporcionamos registros de transacciones detallados para tus necesidades fiscales."
+        },
+        "q3": {
+            "question": "¿Cómo puedo rastrear el impacto de mi donación?",
+            "answer": "Cada proyecto proporciona actualizaciones regulares sobre su progreso. Puedes ver estas actualizaciones en la página del proyecto. Además, todas las transacciones se registran en la blockchain de Bitcoin, lo que te permite verificar exactamente a dónde fueron tus fondos."
+        },
+        "q4": {
+            "question": "¿Qué pasa si un proyecto no alcanza su objetivo?",
+            "answer": "Los proyectos pueden operar con un modelo de financiación \"todo o nada\" o \"quedarse con todo\". Esto se indica claramente en cada página de proyecto. Para proyectos de todo o nada, si no se alcanza el objetivo, todas las donaciones se devuelven automáticamente a los donantes."
+        },
+        "q5": {
+            "question": "¿Cómo se verifican los proyectos para autenticidad?",
+            "answer": "Todos los proyectos pasan por un proceso de verificación exhaustivo antes de ser publicados. Verificamos la identidad de los creadores de proyectos, revisamos la documentación del proyecto y evaluamos la viabilidad de sus planes. Los proyectos verificados muestran una insignia en su página."
+        },
+        "q6": {
+            "question": "¿Qué tarifas cobra Bien Star?",
+            "answer": "Cobramos una pequeña tarifa de plataforma del 5% en proyectos financiados exitosamente para cubrir costos operativos y mantenimiento de la plataforma. Esta tarifa nos ayuda a continuar proporcionando una plataforma de recaudación de fondos segura y transparente. También se aplican las tarifas estándar de transacción de Bitcoin."
+        },
+        "contact": {
+            "title": "¿Todavía tienes preguntas?",
+            "description": "Nuestro equipo de soporte está aquí para ayudarte",
+            "button": "Contactar Soporte"
+        }
     }
 }
