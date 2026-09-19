@@ -1,8 +1,8 @@
 {
     "common": {
         "name": "Bien Star",
-        "description": "Bien Star es una plataforma de crowdfunding para causas sociales con donaciones en Bitcoin.",
-        "title": "Bien Star - Crowdfunding para Causas Sociales"
+        "description": "Bien Star es un router de donaciones en Bitcoin para reforestación. Dona a un pool curado o a una organización específica, y mira la evidencia cuando los árboles quedan en la tierra.",
+        "title": "Bien Star - Donaciones en Bitcoin para Reforestación"
     },
     "nav": {
         "home": "Inicio",
@@ -13,54 +13,65 @@
     },
     "home": {
         "hero": {
-            "title": "Apoya Causas Sociales con Bitcoin",
-            "subtitle": "Crowdfunding transparente, seguro y eficiente impulsado por tecnología Starknet",
-            "cta": "Explorar Proyectos"
+            "title": "Sembrando Árboles para Devolver el Agua que Utilizó Bitcoin",
+            "subtitle": "Dona Bitcoin. Se convierte en USDC verificable, liberado a organizaciones de reforestación solo cuando comprueban que los árboles ya están en la tierra.",
+            "cta": "Ver Organizaciones Verificadas"
         },
         "featured": {
-            "title": "Proyectos Destacados",
-            "viewAll": "Ver Todos los Proyectos"
+            "title": "Organizaciones Verificadas",
+            "viewAll": "Ver Todas las Organizaciones",
+            "donateCta": "Donar a Esta Organización",
+            "verifiedOn": "Verificado {{date}}",
+            "pendingReview": "Evidencia en revisión",
+            "treesPlanted": "{{count}} árboles plantados"
         },
         "how": {
             "title": "Cómo Funciona",
-            "subtitle": "Pasos Sencillos para Crear Impacto",
+            "subtitle": "De Bitcoin a Árboles, con Evidencia en Cada Paso",
             "donate": {
                 "title": "Donar",
-                "description": "Apoya proyectos con donaciones en Bitcoin de forma segura y transparente"
+                "description": "Da Bitcoin al pool general o directo a la organización que elijas. Se convierte en USDC mediante un bloqueo de BTC sin confianza, sin bridge y sin custodio."
             },
             "verify": {
                 "title": "Verificar",
-                "description": "Todos los proyectos pasan por verificaciones de cumplimiento antes de la distribución de fondos"
+                "description": "La organización sube evidencia en foto y GPS de la siembra. Nuestro equipo la revisa antes de desbloquear cualquier retiro."
             },
             "impact": {
-                "title": "Crear Impacto",
-                "description": "Sigue cómo tu donación crea un impacto social real"
+                "title": "Crecer",
+                "description": "Los árboles quedan en la tierra y la evidencia se vuelve parte de un registro público que cualquiera puede revisar."
             }
         },
         "growing": {
-            "title": "Cada Contribución Hace Crecer el Impacto",
-            "subtitle": "Observa cómo tus donaciones en Bitcoin se transforman desde semillas hasta un ecosistema floreciente de cambio.",
+            "title": "De un Bitcoin Bloqueado a un Árbol en la Tierra",
+            "subtitle": "Cada donación sigue el mismo camino, y puedes revisar en qué punto va en cualquier momento.",
             "step1": {
-                "title": "Planta la Semilla",
-                "description": "Tu primera donación en Bitcoin planta la semilla del cambio, comenzando un viaje de transformación."
+                "title": "BTC Bloqueado",
+                "description": "Tu Bitcoin se bloquea de forma nativa a través de Writz Protocol, verificado on-chain, sin bridge y sin custodio que lo retenga."
             },
             "step2": {
-                "title": "Primeros Brotes",
-                "description": "Observa cómo tu contribución echa raíces, trayendo los primeros signos de cambio positivo a comunidades necesitadas."
+                "title": "USDC Emitido",
+                "description": "Se emite USDC contra el BTC bloqueado en Stellar y entra al pool o va directo a la organización que elegiste."
             },
             "step3": {
-                "title": "Creciendo Más Fuerte",
-                "description": "A medida que se unen más contribuciones, nuestro impacto colectivo crece más fuerte, superando desafíos juntos."
+                "title": "Los Fondos Llegan a la Organización",
+                "description": "Una organización de reforestación vetada recibe el USDC, en custodia hasta que muestre evidencia de su trabajo."
             },
             "step4": {
-                "title": "Impacto Floreciente",
-                "description": "Tu apoyo sostenido permite que los proyectos florezcan, creando cambios visibles e inspirando a otros a unirse."
+                "title": "Evidencia Revisada",
+                "description": "La organización sube fotos y coordenadas GPS del sitio de siembra. Nuestro equipo la revisa antes de desbloquear los fondos."
             },
             "step5": {
-                "title": "Ecosistema Próspero",
-                "description": "Juntos creamos un ecosistema próspero de impacto positivo, transformando comunidades y vidas para las generaciones venideras."
+                "title": "El Árbol Crece",
+                "description": "Una vez verificada, el retiro se desbloquea y la evidencia se vuelve parte del registro público que cualquiera puede revisar."
             },
-            "cta": "Comienza Tu Viaje de Impacto"
+            "cta": "Ver el Recorrido de una Donación"
+        },
+        "proofWall": {
+            "title": "El Muro de Evidencia",
+            "subtitle": "Cada revisión, a la vista de todos. Esta es la evidencia que las organizaciones envían antes de que un retiro se desbloquee.",
+            "verified": "Verificado",
+            "pending": "En revisión",
+            "note": "Esta es una vista previa del flujo de revisión de evidencia. Los envíos reales aparecerán aquí cuando las organizaciones empiecen a reportar."
         }
     },
     "project": {
@@ -125,7 +136,7 @@
     },
     "footer": {
         "rights": "Todos los derechos reservados",
-        "slogan": "Promoviendo la solidaridad",
+        "slogan": "Sembrando árboles para devolver el agua que utilizó Bitcoin",
         "privacy": "Política de Privacidad",
         "terms": "Términos de Servicio",
         "contact": "Contáctanos",
@@ -141,9 +152,9 @@
     },
     "stats": {
         "activeSupporters": "Partidarios Activos",
-        "fundsRaised": "Fondos Totales Recaudados",
-        "projectsFunded": "Proyectos Financiados",
-        "successRate": "Tasa de Éxito"
+        "fundsRaised": "Total de BTC Donado",
+        "treesPlanted": "Árboles Plantados",
+        "waterReturned": "Litros de Agua Devueltos"
     },
     "testimonials": {
         "title": "Lo Que Dice La Gente",
@@ -161,29 +172,29 @@
         "trustNote": "Únete a más de 50 organizaciones que marcan la diferencia a través de recaudación de fondos transparente impulsada por blockchain"
     },
     "trust": {
-        "title": "Tu Confianza Es Nuestra Prioridad",
-        "subtitle": "Implementamos medidas de seguridad y transparencia líderes en la industria para proteger tus donaciones",
+        "title": "La Confianza Está en el Mecanismo, No Solo en la Promesa",
+        "subtitle": "Cada salvaguarda aquí corresponde a algo que puedes verificar tú mismo, no a una declaración de políticas",
         "secure": {
-            "title": "Transacciones Seguras",
-            "description": "Todas las donaciones se procesan a través de la tecnología blockchain de Bitcoin segura"
+            "title": "Bitcoin Nativo, Sin Bridge",
+            "description": "El BTC se bloquea y se verifica mediante pruebas SPV de Bitcoin, sin tokens envueltos, sin custodio reteniendo tus fondos"
         },
         "privacy": {
-            "title": "Privacidad Protegida",
-            "description": "Tu información personal está cifrada y nunca se comparte sin consentimiento"
+            "title": "Privacidad Preservada",
+            "description": "Tu posición se prueba con una prueba de conocimiento cero, el monto que bloqueaste se mantiene privado"
         },
         "transparent": {
-            "title": "100% Transparente",
-            "description": "Cada transacción es verificable en la blockchain con total transparencia"
+            "title": "Evidencia, No Solo Transacciones",
+            "description": "Cada retiro está ligado a evidencia de foto y GPS que la organización envió, revisada antes de desbloquear fondos"
         },
         "verified": {
-            "title": "Proyectos Verificados",
-            "description": "Todos los proyectos se someten a una verificación exhaustiva antes de su aprobación"
+            "title": "Organizaciones Vetadas",
+            "description": "Cada organización es revisada antes de poder recibir asignaciones del pool o donaciones directas"
         },
         "badges": {
-            "ssl": "Cifrado SSL",
-            "blockchain": "Verificado en Blockchain",
-            "compliant": "Cumplimiento Regulatorio",
-            "audited": "Auditoría de Seguridad"
+            "ssl": "Verificado por SPV",
+            "blockchain": "Sin Custodio",
+            "compliant": "Evidencia Revisada",
+            "audited": "Organizaciones Vetadas Manualmente"
         }
     },
     "faq": {

@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, Variants } from 'framer-motion';
-import { Users, TrendingUp, Heart, Bitcoin } from 'lucide-react';
+import { Users, TreePine, Droplets, Bitcoin } from 'lucide-react';
 import AnimatedCounter from './AnimatedCounter';
 import { useTranslations } from '@/context/TranslationContext';
 
@@ -47,18 +47,18 @@ export default function StatsSection() {
       color: 'text-orange-500',
     },
     {
-      icon: <Heart className="w-8 h-8" />,
-      value: 150,
+      icon: <TreePine className="w-8 h-8" />,
+      value: 12000,
       suffix: '+',
-      label: t('stats.projectsFunded') || 'Projects Funded',
-      color: 'text-red-500',
+      label: t('stats.treesPlanted') || 'Trees Planted',
+      color: 'text-emerald-600',
     },
     {
-      icon: <TrendingUp className="w-8 h-8" />,
-      value: 98,
-      suffix: '%',
-      label: t('stats.successRate') || 'Success Rate',
-      color: 'text-green-500',
+      icon: <Droplets className="w-8 h-8" />,
+      value: 850000,
+      suffix: 'L',
+      label: t('stats.waterReturned') || 'Liters of Water Returned',
+      color: 'text-cyan-500',
     },
   ];
 

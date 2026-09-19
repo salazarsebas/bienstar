@@ -7,7 +7,7 @@
  */
 import React from 'react';
 import { useTranslations } from '../context/TranslationContext';
-import { Bitcoin, ShieldCheck, BarChart3 } from 'lucide-react';
+import { Bitcoin, ShieldCheck, Sprout } from 'lucide-react';
 
 export default function HowItWorks() {
   const { t } = useTranslations();
@@ -81,7 +81,7 @@ export default function HowItWorks() {
                 </div>
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="bg-black dark:bg-white rounded-full p-4 shadow-md">
-                    <BarChart3 className="w-12 h-12 text-blue-500" />
+                    <Sprout className="w-12 h-12 text-emerald-500" />
                   </div>
                 </div>
               </div>

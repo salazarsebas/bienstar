@@ -89,12 +89,12 @@ Bienstar started as a general-purpose Bitcoin crowdfunding platform and shipped 
 Validating that prototype surfaced the two gaps described above: general crowdfunding does not differentiate Bienstar, and Starknet does not give us a trustless BTC-to-USDC path. The project is now narrowing scope to a single, sharper use case, reforestation, and moving the on-chain layer to Stellar/Soroban to plug directly into Writz Protocol.
 
 **Built:**
-- Donor-facing web UI (hero, project discovery, how-it-works, animated storytelling, i18n)
+- Donor-facing web UI rewritten around the reforestation narrative: hero, how-it-works (donate, verify, grow), the BTC-to-tree journey, a verified-organizations grid, and a proof-wall preview of the evidence review flow, in EN / ES / JA
 - Cairo/Dojo donation contracts on Starknet Sepolia
 - Mobile app shell with campaign browsing and profile screens
 
 **In progress / not yet built:**
-- Reforestation-specific messaging and donation flow (pool vs. direct-to-org)
+- The organization and evidence data shown on the site is illustrative placeholder content, not a live backend. There is no real donation flow, organization registry, or evidence upload yet.
 - Stellar/Soroban contracts replacing the Cairo/Dojo layer
 - Writz Protocol integration for the BTC-lock-to-USDC step
 - Organization vetting, evidence submission (photo + GPS), and manual review workflow

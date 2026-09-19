@@ -1,8 +1,8 @@
 {
     "common": {
         "name": "Bien Star",
-        "description": "Crowdfunding platform for social causes with Bitcoin donations",
-        "title": "Bien Star - Crowdfunding with Bitcoin"
+        "description": "Bitcoin donation router for reforestation. Give to a curated pool or a specific organization, and see the evidence once trees are in the ground.",
+        "title": "Bien Star - Bitcoin Donations for Reforestation"
     },
     "nav": {
         "home": "Home",
@@ -13,54 +13,65 @@
     },
     "home": {
         "hero": {
-            "title": "Support Social Causes with Bitcoin",
-            "subtitle": "Transparent, secure, and efficient crowdfunding powered by Starknet technology",
-            "cta": "Explore Projects"
+            "title": "Plant Trees, Return the Water Bitcoin Used",
+            "subtitle": "Donate Bitcoin. It becomes verifiable USDC, released to reforestation organizations only after they prove the trees are in the ground.",
+            "cta": "See Verified Organizations"
         },
         "featured": {
-            "title": "Featured Projects",
-            "viewAll": "View All Projects"
+            "title": "Verified Organizations",
+            "viewAll": "View All Organizations",
+            "donateCta": "Donate to This Organization",
+            "verifiedOn": "Verified {{date}}",
+            "pendingReview": "Evidence under review",
+            "treesPlanted": "{{count}} trees planted"
         },
         "how": {
             "title": "How It Works",
-            "subtitle": "Easy Steps to Make Impact",
+            "subtitle": "From Bitcoin to Trees, With Proof at Every Step",
             "donate": {
                 "title": "Donate",
-                "description": "Support projects with Bitcoin donations securely and transparently"
+                "description": "Give Bitcoin to the general pool or straight to an organization you choose. It becomes USDC through a trustless BTC lock, no bridge and no custodian involved."
             },
             "verify": {
                 "title": "Verify",
-                "description": "All projects undergo compliance checks before fund distribution"
+                "description": "The organization submits photo and GPS evidence of the planting. Our team reviews it before any withdrawal is unlocked."
             },
             "impact": {
-                "title": "Make Impact",
-                "description": "Track how your donation creates real social impact"
+                "title": "Grow",
+                "description": "Trees go in the ground and the evidence becomes part of a public record anyone can check."
             }
         },
         "growing": {
-            "title": "Every Contribution Grows Impact",
-            "subtitle": "Watch as your Bitcoin donations transform from seeds to a flourishing ecosystem of change.",
+            "title": "From a Locked Bitcoin to a Tree in the Ground",
+            "subtitle": "Every donation follows the same path, and you can check where it stands at any point.",
             "step1": {
-                "title": "Plant the Seed",
-                "description": "Your first Bitcoin donation plants the seed of change, beginning a journey of transformation."
+                "title": "BTC Locked",
+                "description": "Your Bitcoin is locked natively through Writz Protocol, verified on-chain, no bridge and no custodian holding it."
             },
             "step2": {
-                "title": "First Sprouts",
-                "description": "Watch as your contribution takes root, bringing the first signs of positive change to communities in need."
+                "title": "USDC Issued",
+                "description": "USDC is issued against the locked BTC on Stellar and enters the pool or goes straight to the organization you chose."
             },
             "step3": {
-                "title": "Growing Stronger",
-                "description": "As more contributions join, our collective impact grows stronger, weathering challenges together."
+                "title": "Funds Reach the Organization",
+                "description": "A vetted reforestation organization receives the USDC, escrowed until it shows proof of work."
             },
             "step4": {
-                "title": "Blossoming Impact",
-                "description": "Your sustained support allows projects to blossom, creating visible change and inspiring others to join."
+                "title": "Evidence Reviewed",
+                "description": "The organization submits photos and GPS coordinates of the planting site. Our team reviews it before funds unlock."
             },
             "step5": {
-                "title": "Flourishing Ecosystem",
-                "description": "Together we create a flourishing ecosystem of positive impact, transforming communities and lives for generations to come."
+                "title": "The Tree Grows",
+                "description": "Once verified, the withdrawal unlocks and the evidence becomes part of the public record for anyone to check."
             },
-            "cta": "Start Your Impact Journey"
+            "cta": "See a Donation's Journey"
+        },
+        "proofWall": {
+            "title": "The Proof Wall",
+            "subtitle": "Every review, in the open. This is the evidence organizations submit before a withdrawal unlocks.",
+            "verified": "Verified",
+            "pending": "Under review",
+            "note": "This is a preview of the evidence review flow. Live submissions will appear here once organizations start reporting."
         }
     },
     "project": {
@@ -125,7 +136,7 @@
     },
     "footer": {
         "rights": "All rights reserved",
-        "slogan": "Promoting solidarity",
+        "slogan": "Planting trees to return the water Bitcoin used",
         "privacy": "Privacy Policy",
         "terms": "Terms of Service",
         "contact": "Contact Us",
@@ -141,9 +152,9 @@
     },
     "stats": {
         "activeSupporters": "Active Supporters",
-        "fundsRaised": "Total Funds Raised",
-        "projectsFunded": "Projects Funded",
-        "successRate": "Success Rate"
+        "fundsRaised": "Total BTC Donated",
+        "treesPlanted": "Trees Planted",
+        "waterReturned": "Liters of Water Returned"
     },
     "testimonials": {
         "title": "What People Say",
@@ -161,29 +172,29 @@
         "trustNote": "Join 50+ organizations making a difference through transparent, blockchain-powered fundraising"
     },
     "trust": {
-        "title": "Your Trust Is Our Priority",
-        "subtitle": "We implement industry-leading security and transparency measures to protect your donations",
+        "title": "Trust Is Built Into the Mechanism, Not Just Promised",
+        "subtitle": "Every safeguard here maps to something you can verify yourself, not a policy statement",
         "secure": {
-            "title": "Secure Transactions",
-            "description": "All donations are processed through secure Bitcoin blockchain technology"
+            "title": "Native Bitcoin, No Bridge",
+            "description": "BTC is locked and verified through Bitcoin SPV proofs, no wrapped tokens, no custodian holding your funds"
         },
         "privacy": {
-            "title": "Privacy Protected",
-            "description": "Your personal information is encrypted and never shared without consent"
+            "title": "Privacy Preserved",
+            "description": "Your position is proven with a zero-knowledge proof, the amount you locked stays private"
         },
         "transparent": {
-            "title": "100% Transparent",
-            "description": "Every transaction is verifiable on the blockchain with full transparency"
+            "title": "Evidence, Not Just Transactions",
+            "description": "Every withdrawal is tied to photo and GPS evidence the organization submitted, reviewed before funds unlock"
         },
         "verified": {
-            "title": "Verified Projects",
-            "description": "All projects undergo thorough verification before approval"
+            "title": "Vetted Organizations",
+            "description": "Every organization is reviewed before it can receive pool allocations or direct donations"
         },
         "badges": {
-            "ssl": "SSL Encrypted",
-            "blockchain": "Blockchain Verified",
-            "compliant": "Regulatory Compliant",
-            "audited": "Security Audited"
+            "ssl": "SPV Verified",
+            "blockchain": "No Custodian",
+            "compliant": "Evidence Reviewed",
+            "audited": "Manually Vetted Orgs"
         }
     },
     "faq": {
